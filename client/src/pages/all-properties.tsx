@@ -1,7 +1,7 @@
 import { Add } from '@mui/icons-material';
 import { useTable } from '@pankod/refine-core';
 import  { Box, Stack, Typography, TextField, Select, MenuItem} from '@pankod/refine-mui';
-import { useNavigate } from '@pankod/refine-react-router-v6';
+import { useNavigate } from 'react-router-dom';
 import { PropertyCard, CustomButton } from 'components';
 import { useMemo } from 'react';
 
@@ -150,10 +150,10 @@ const AllProperties = () => {
                     <CustomButton
                         title="Previous"
                         handleClick={() => setCurrent((prev) => prev - 1)}
-                        backgroundColor="#475be8"
-                        color="#fcfcfc"
+                        backgroundColor="#475be8" color="#fcfcfc"
                         disabled={!(current > 1)}
                     />
+                    
                     <Box
                         display={{ xs: "hidden", sm: "flex" }}
                         alignItems="center"
@@ -167,8 +167,7 @@ const AllProperties = () => {
                     <CustomButton
                         title="Next"
                         handleClick={() => setCurrent((prev) => prev + 1)}
-                        backgroundColor="#475be8"
-                        color="#fcfcfc"
+                        backgroundColor="#475be8" color="#fcfcfc"
                         disabled={current === pageCount}
                     />
                     <Select

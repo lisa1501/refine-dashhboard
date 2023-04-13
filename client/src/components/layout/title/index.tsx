@@ -1,7 +1,9 @@
 import React from "react";
 import { useRouterContext, TitleProps } from "@pankod/refine-core";
-import { Button } from "@pankod/refine-mui";
-import { yariga, logo} from 'assets';
+import { Button } from "@mui/material";
+
+import { logo, yariga } from "assets";
+
 export const Title: React.FC<TitleProps> = ({ collapsed }) => {
   const { Link } = useRouterContext();
 
