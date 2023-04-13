@@ -66,6 +66,8 @@ export const Login: React.FC = () => {
         >
           <div>
             <img src={yariga} alt="Yariga Logo" />
+            <p>Sometimes it takes a little bit longer to Sign in.</p>
+            <p>Thank you for your patience！</p>
           </div>
           <Box mt={4}>
             <GoogleButton />

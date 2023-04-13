@@ -176,13 +176,13 @@ const AllProperties = () => {
                         displayEmpty
                         required
                         inputProps={{ "aria-label": "Without label" }}
-                        defaultValue={10}
+                        defaultValue={4}
                         onChange={(e) =>
                             setPageSize(
-                                e.target.value ? Number(e.target.value) : 10,
+                                e.target.value ? Number(e.target.value) : 4,
                             )}
                     >
-                        {[10, 20, 30, 40, 50].map((size) => (
+                        {[2, 4, 10, 15, 20].map((size) => (
                             <MenuItem key={size} value={size}>
                                 Show {size}
                             </MenuItem>
