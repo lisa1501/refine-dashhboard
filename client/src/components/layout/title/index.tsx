@@ -9,6 +9,7 @@ export const Title: React.FC<TitleProps> = ({ collapsed }) => {
 
   return (
     <Button fullWidth variant="text" disableRipple>
+        
       <Link to="/">
         {collapsed ? (
           <img src={logo} alt="Yariga" width="28px" />
