@@ -12,7 +12,8 @@ Developed React-based CRUD a fully functional dashboard app without constraints 
 [Sperate repository links - server side](https://github.com/lisa1501/Dashboard-Application-server)
 ## Installation
 
-- `git clone https://github.com/lisa1501/refine-dashhboard.git && cd refine-dashhboard`
+- `git clone https://github.com/lisa1501/refine-dashhboard.git `
+- `cd refine-dashhboard`
 - install npm on client and server. do the cd on 2 separate terminals
   - `cd client`
   - `nvm use 18.13.0`
