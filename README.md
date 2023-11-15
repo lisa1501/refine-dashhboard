@@ -27,16 +27,15 @@ Developed React-based CRUD a fully functional dashboard app without constraints 
 
 - Next create a .env file in server. It should contain the following information.
 ```bash
-   MONGODB_URL = ' '
-    CLOUDINARY_CLOUD_NAME = ' '
-    CLOUDINARY_API_KEY = ' '
-    CLOUDINARY_API_SECRET = ' '
-
-PORT=8080
+    MONGODB_URL = 
+    CLOUDINARY_CLOUD_NAME = 
+    CLOUDINARY_API_KEY = 
+    CLOUDINARY_API_SECRET = 
+    PORT=8080
 ```
 - Next create a .env file in client. It should contain the following information.
 ```bash
-   REACT_APP_GOOGLE_CLIENT_ID = ' '
+   REACT_APP_GOOGLE_CLIENT_ID = 
 ```
 ## 
 
