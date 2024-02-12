@@ -2,7 +2,8 @@
 
 ## Description
 
-Developed React-based CRUD a fully functional dashboard app without constraints by applying Refine. Provide a quick and easy way for users to log in and register using Google Auth. Optimized user-uploaded images and stored them on the cloud by using Cloudinary. Users are able to CRUD their property, review other agents' contact info and read properties by searching by title, sorting by price, filtering by property type and pagination
+Developed React-based CRUD, a fully functional dashboard that allows users to customize UI without constraints by applying Refine which is headless by design and offers unlimited styling and customization possibilities.
+Provided a safe and easy way for users to log in and register using Google Auth. Stored user-uploaded images on the cloud by using Cloudinary. Implemented data filters feature, giving users the ability to quickly search properties by filtering a combination of attributes: name, price, property type and pagination
 <br>
 
 [Click here to see it in action!](https://halisa-yariga-app.netlify.app)
